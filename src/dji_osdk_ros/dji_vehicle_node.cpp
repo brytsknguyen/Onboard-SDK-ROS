@@ -30,6 +30,8 @@
 #include <dji_osdk_ros/dji_vehicle_node.h>
 #include <dji_osdk_ros/vehicle_wrapper.h>
 
+#define ADVANCED_SENSING
+
 #ifdef OPEN_CV_INSTALLED
 #include <dji_osdk_ros/stereo_utility/m300_stereo_param_tool.hpp>
 #endif
